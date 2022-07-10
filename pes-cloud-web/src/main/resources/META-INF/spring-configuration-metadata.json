@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "spring.application.security-code",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.security-code."
+    },
+    {
+      "name": "spring.application.base-package",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.base-package."
+    },
+    {
+      "name": "spring.application.api-url",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.api-url."
+    },
+    {
+      "name": "spring.application.version",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.version."
+    },
+    {
+      "name": "spring.application.title",
+      "type": "java.lang.String",
+      "description": "Description for spring.application.title."
+    }
+  ] }

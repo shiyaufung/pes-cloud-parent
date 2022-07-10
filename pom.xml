@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.piper-platform.pes</groupId>
+    <artifactId>pes-cloud-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+    <name>Profinet Ethernet Server Cloud Platform Parent</name>
+    <description>Profinet Ethernet Server Cloud Platform Parent</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>tj_it_maven</id>
+            <name>TJ_IT Release Repository</name>
+            <url>http://10.234.64.18:9001/repository/custom-release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>tj_it_maven</id>
+            <name>TJ_IT Snapshot Repository</name>
+            <url>http://10.234.64.18:9001/repository/custom-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <modules>
+        <module>pes-cloud-dependencies</module>
+        <module>pes-cloud-commons</module>
+        <module>pes-cloud-web</module>
+        <module>pes-cloud-rdbms</module>
+        <module>pes-cloud-ms</module>
+    </modules>
+
+</project>

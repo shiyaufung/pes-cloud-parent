@@ -1,0 +1,20 @@
+package ${package};
+
+/**
+ * <p>
+ * $!{comment}
+ * </p>
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+
+public interface ${className} {
+
+#foreach($entry in ${entries})
+    /**
+     * ${entry.value}
+     */
+    String $StringUtils.toUpperCase(${entry.key}) = "${entry.key}";
+#end
+}
